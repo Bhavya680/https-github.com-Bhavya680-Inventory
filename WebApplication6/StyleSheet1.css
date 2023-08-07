@@ -1,0 +1,70 @@
+﻿/* Reset default margin and padding for lists */
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main layout styles */
+#wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+#header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.content {
+    display: flex;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.menu {
+    padding: 0;
+}
+
+    .menu h2 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .menu ul {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+        padding: 5px 0;
+        transition: background-color 0.3s;
+    }
+
+        .menu a:hover {
+            background-color: #ddd;
+        }
+
+#footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Additional styling for specific elements can be added here */
